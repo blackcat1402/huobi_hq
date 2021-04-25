@@ -3,11 +3,14 @@
 
 最简单的例子
 
+
+
 ```python
 code='btc.usdt'
 print(code,'最新价格',get_last_price(code))
 df=get_price(code,count=5,frequency='4h');      #1d:1天  4h:4小时   60m: 60分钟    15m:15分钟
 print(df)
+
 
 
 
@@ -20,3 +23,4 @@ btc.usdt 最新价格 53609.16
 2021-04-22 12:00:00	53506.68	54141.42	54850.00	53456.72	2.157972e+08
 2021-04-22 16:00:00	54144.03	53609.17	54260.05	53609.16	4.257941e+07
 ```
+![结果1](https://github.com/mpquant/huobi_hq/blob/main/img/btc425.png)
