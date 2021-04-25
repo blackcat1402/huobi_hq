@@ -1,5 +1,5 @@
 #火币行情演示
-from  hb_hq_api import *;   import hb_hq_api as q
+from  hb_hq_api import *
 
 #获取价格演示
 code='btc.usdt'
