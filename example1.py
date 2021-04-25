@@ -8,5 +8,5 @@ df=get_price(code,count=5,frequency='4h');      #1d:1天  4h:4小时   60m: 60�
 print(df)
 
 
-code='eth.btc'
+code='eth.btc'  #股票代码113
 print(code,'最新价格',get_last_price(code))
