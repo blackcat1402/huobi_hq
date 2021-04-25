@@ -1,4 +1,4 @@
-# huobi_intf
+# 火币网行情最简封装接口
 提供火币网数据的接口的python封装，封装成pandas的dataframe格式
 
 最简单的例子
@@ -12,11 +12,11 @@ df=get_price(code,count=5,frequency='4h');      #1d:1天  4h:4小时   60m: 60�
 print(df)
 
 ```
-### btc日线
-![btc日线](https://github.com/mpquant/huobi_hq/blob/main/img/btc425.png)
+## btc日线
+![btc日线](/img/btc425.png)
  
 
-### btc的4小时线
-![btc小时线](https://github.com/mpquant/huobi_hq/blob/main/img/btc425_4.png)
+## btc的4小时线
+![btc小时线](/img/btc425_4.png)
 
 
