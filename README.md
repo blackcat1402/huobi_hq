@@ -1,6 +1,8 @@
 # huobi_intf
 提供火币网数据的接口的python封装，封装成pandas的dataframe格式
 
+最简单的例子
+
 ```python
 code='btc.usdt'
 print(code,'最新价格',get_last_price(code))
