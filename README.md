@@ -2,12 +2,15 @@
 提供火币网数据的接口的python封装，封装成pandas的dataframe格式
 
 ### 接口说明
-* get_price接口得到火币网行情数据，返回dataframe的格式
+* get_price() 函数得到火币网行情数据，返回dataframe的格式
+* get_last_price() 函数获取某币种最新价格
+* attribute_history() 获取某币种历史价格，主要用于回测，避免未来函数 
 
 * 为了支持多交易所(币安，okex等),我们规范定义了几个核心数据格式
    * 交易对统一用 btc.usdt  ，  eth.usdt  ，    eth.btc  这样的中间加.分割的格式
    * 时间周期统一用 1d: 一天 ，  4h: 四小时 ，  60m: 60分 ，  15m:15分 ，  5m:5分 ，   1m:1分   这样的格式
 
+* 最简行情接口库无需安装，克隆下载后，放在当前目录下，加一句  from  hb_hq_api import *  即可使用
 
 
 
