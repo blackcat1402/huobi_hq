@@ -21,9 +21,9 @@
 ```python
 from  hb_hq_api import *
 
-code='btc.usdt'                                #交易对统一用 btc.usdt , eth.usdt，eth.btc 格式      
+code='btc.usdt'                              #交易对统一用 btc.usdt , eth.usdt，eth.btc 格式      
 print(code,'最新价格',get_last_price(code))
-df=get_price(code,count=5,frequency='4h');     #1d:1天  4h:4小时   60m: 60分钟    15m:15分钟
+df=get_price(code,count=5,frequency='4h');   #获取当前实时价格 1d:1天  4h:4小时   60m: 60分钟    15m:15分钟
 print(df)
 
 #结果参看下面的截图
