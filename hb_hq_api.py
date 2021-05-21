@@ -1,4 +1,4 @@
-#火币最简行情功能函数 
+#火币最简行情功能函数 05-24
 import json,requests,urllib3,datetime;   import pandas as pd;  import numpy as np ; urllib3.disable_warnings()
 
 huobi_domain='api.huobi.de.com'   #API地址   'api.huobi.pro'    api.huobi.be没有被墙  api.huobi.de.com
