@@ -52,6 +52,8 @@ print(df)
 
 * [ths_trade同花顺自动化交易股票下单接口API,量化框架](https://github.com/mpquant/ths_trade)
 
+* [Ashare最简股票行情数据接口API,A股行情完全开源免费](https://github.com/mpquant/Ashare)
+
 ----------------------------------------------------
 ### 巴特量化(BestQuant)：数字货币 股市量化工具 行情系统软件提供商
 ----------------------------------------------------
